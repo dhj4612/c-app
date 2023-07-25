@@ -1,4 +1,4 @@
-import { StyleSheet, Text, Touchable, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { xTd } from "../utils/tools";
 import ArrowIcon from "./ArrowIcon";
 

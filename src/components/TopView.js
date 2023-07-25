@@ -1,12 +1,6 @@
-'use strict'
-import React, { Component } from 'react'
-import {
-  StyleSheet,
-  AppRegistry,
-  DeviceEventEmitter,
-  View,
-  Animated,
-} from 'react-native'
+"use strict";
+import React, { Component } from "react";
+import { Animated, AppRegistry, DeviceEventEmitter, StyleSheet, View } from "react-native";
 
 let keyValue = 0
 const rrcRNLoadingKey = 'rrc-rn-loading-key'

@@ -1,4 +1,4 @@
-import { Button, Image, ImageBackground, StyleSheet, TouchableOpacity, View } from "react-native";
+import { Image, ImageBackground, StyleSheet, TouchableOpacity } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import mineBg from "../../../assets/img/mine/mine-bg.png";
 import MineInfo from "./MineInfo";

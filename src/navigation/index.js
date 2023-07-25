@@ -1,9 +1,7 @@
-import React from "react";
 import { getAuthorization, hasAuthorization, removeAuthorization } from "../utils/user";
 import { rn_navigation } from "./rn_navigation";
 import { web_view_navigation } from "./webview_navigation";
-import { createNavigationContainerRef } from "@react-navigation/native";
-import { StackActions } from "@react-navigation/native";
+import { createNavigationContainerRef, StackActions } from "@react-navigation/native";
 import { toUrlParam } from "../utils/tools";
 
 export const Routers = {

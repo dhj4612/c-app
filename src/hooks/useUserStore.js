@@ -1,11 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
 import {
-  setScore,
-  setRealNameInfo,
-  setUserInfo,
-  setPersonInfoForm,
-  setHomeData,
   setEvaluateFormData,
+  setHomeData,
+  setPersonInfoForm,
+  setRealNameInfo,
+  setScore,
+  setUserInfo,
 } from "../store/userSlice";
 
 export const useUserStore = () => {

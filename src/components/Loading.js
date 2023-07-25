@@ -1,6 +1,6 @@
-import React from 'react'
-import { View, Text, ActivityIndicator, Image, Dimensions } from 'react-native'
-import TopView from './TopView'
+import React from "react";
+import { ActivityIndicator, Dimensions, Image, Text, View } from "react-native";
+import TopView from "./TopView";
 
 const { width } = Dimensions.get('screen')
 
